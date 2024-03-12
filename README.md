@@ -7,9 +7,9 @@ url-https://gleam.run/getting-started/installing/
 After installation open your terminal or command promt and type 
 gleam --version
  
-* If you "gleam <version>" that means you have succesfully installed gleam
+* If you "gleam version" that means you have succesfully installed gleam
 
-First lets create a project in order to create a new project we have command "gleam new <project-name>".
+First lets create a project in order to create a new project we have command "gleam new project-name".
 
 For example -> let me consider the name hello just use the command "gleam new hello"
 
