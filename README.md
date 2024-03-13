@@ -40,3 +40,31 @@ This will create a directory with the specified project name. Navigate to this d
 - `src/`: Directory for program source files.
 - `test/`: Directory for additional code used in testing the project.
 
+### Let's Get Started with Our First Program
+
+Let's create the project using the following command:
+
+```bash
+gleam new hello
+```
+* Navigate into the "hello" directory, open your text editor, and within the "src" directory, you'll find a file named "hello.gleam". Inside this file, you'll see the following code:
+
+```bash
+import gleam/io
+
+pub fn main() {
+  io.println("Hello, world!")
+}
+```
+* Open your terminal in that directory and run the following command:
+
+```bash 
+gleam run hello.gleam
+```
+* Congratulations! You have written your first program in Gleam. Now, let's understand what the above program does:
+
+`import gleam/io`: This line imports the gleam/io module, which is part of the Gleam standard library. It provides functionality for input and output operations.
+
+`pub fn main()`: Here, pub means public, fn means function, and main refers to the entry point of the program or the main function.
+
+`io.println("Hello, world!")`: This line prints "Hello, world!" to the console.
