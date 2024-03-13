@@ -7,7 +7,6 @@ Gleam is a friendly language for building type-safe systems that scale.
 This repository serves as a resource for learning the basics of the Gleam language. Here, you'll find explanations and examples to help you get started.
 
 ## Installation
-
 To install Gleam, please follow the official installation guide available [here](https://gleam.run/getting-started/installing/).
 
 Once installed, verify the installation by opening your terminal or command prompt and running the following command:
